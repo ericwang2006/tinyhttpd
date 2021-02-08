@@ -27,7 +27,7 @@ make httpd
 # Introduction
 tinyhttpd is a very lightweight http server, with only more than 500 lines of code, and only more than 20K after compilation. It is suitable for some occasions where the program size is more demanding. It even supports CGI. I added a shell under htdocs. .cgi example, you can write CGI code only with shell script (perl can be omitted)
 
-# Original source address
+# Original source url
 https://sourceforge.net/projects/tinyhttpd/
 
 # Modify the description
@@ -36,7 +36,7 @@ I modified it according to the introduction of [this article](https://www.cnblog
 I added a --port parameter, you can specify the listening port，
 For example `httpd --port 8080`
 
-# Compilation method
+# Compilation
 ```
 git clone git@github.com:ericwang2006/tinyhttpd.git
 cd tinyhttpd
